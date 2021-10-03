@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuaca Banjarbaru</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #74ebd5, #9ace6a);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 24px;
+        max-width: 450px;
+        width: 100%;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        font-size: 1.5rem;
+        color: #333;
+      }
+
+      button {
+        background-color: #2e7d32;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.2s;
+      }
+
+      button:hover {
+        background-color: #1b5e20;
+      }
+
+      .current-weather {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+
+      .temp {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #222;
+      }
+
+      .condition {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 12px;
+      }
+
+      .details {
+        display: flex;
+        justify-content: space-around;
+        background: #f0f4f8;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        color: #444;
+      }
+
+      .hourly-container {
+        margin-top: 20px;
+      }
+
+      .hourly-container h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .hourly-scroll {
+        display: flex;
+        gap: 12px;
+        overflow-x: auto;
+        padding-bottom: 8px;
+      }
+
+      .hourly-item {
+        min-width: 70px;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 0.85rem;
+      }
+
+      .hourly-item .time {
+        font-weight: bold;
+        color: #666;
+      }
+
+      .hourly-item .temp-sm {
+        margin-top: 4px;
+        font-weight: bold;
+        color: #222;
+      }
+
+      .loading {
+        text-align: center;
+        color: #666;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <h1>📍 Banjarbaru</h1>
+        <button onclick="fetchWeather()">Refresh</button>
+      </div>
+
+      <div id="weather-content" class="loading">Memuat data cuaca...</div>
+    </div>
+
+    <script>
+      // Koordinat Banjarbaru
+      const LAT = -3.4404;
+      const LON = 114.8322;
+
+      // Kode WMO Weather Open-Meteo ke Teks Bahasa Indonesia
+      const weatherCodes = {
+        0: "Cerah",
+        1: "Cerah Berawan",
+        2: "Berawan",
+        3: "Mendung",
+        45: "Berkabut",
+        48: "Embun Berbunyi",
+        51: "Gerimis Ringan",
+        53: "Gerimis Sedang",
+        55: "Gerimis Lebat",
+        61: "Hujan Ringan",
+        63: "Hujan Sedang",
+        65: "Hujan Lebat",
+        80: "Hujan Lokal Ringan",
+        81: "Hujan Lokal Sedang",
+        82: "Hujan Lokal Lebat",
+        95: "Badai Petir",
+        96: "Badai Petir & Hujan Es",
+      };
+
+      async function fetchWeather() {
+        const content = document.getElementById("weather-content");
+        content.className = "loading";
+        content.innerText = "Memuat data cuaca...";
+
+        // Mengambil data cuaca saat ini + prakiraan per jam (termasuk 24 jam ke depan & belakang)
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
+
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+
+          renderWeather(data);
+        } catch (error) {
+          content.innerText =
+            "Gagal memuat data cuaca. Periksa koneksi internet Anda.";
+          console.error(error);
+        }
+      }
+
+      function renderWeather(data) {
+        const current = data.current;
+        const hourly = data.hourly;
+
+        // Ambil indeks waktu saat ini untuk menampilkan 24 jam ke depan
+        const now = new Date();
+        const currentHourIso = now.toISOString().slice(0, 13);
+        let startIndex = hourly.time.findIndex((t) =>
+          t.startsWith(currentHourIso),
+        );
+        if (startIndex === -1) startIndex = 24; // Fallback ke hari ini
+
+        // Buat HTML untuk prakiraan jam-jaman
+        let hourlyHtml = "";
+        for (
+          let i = startIndex;
+          i < startIndex + 24 && i < hourly.time.length;
+          i++
+        ) {
+          const timeStr = new Date(hourly.time[i]).toLocaleTimeString("id-ID", {
+            hour: "2-digit",
+            minute: "2-digit",
+          });
+          const temp = Math.round(hourly.temperature_2m[i]);
+          const pop = hourly.precipitation_probability[i] || 0;
+
+          hourlyHtml += `
+          <div class="hourly-item">
+            <div class="time">${timeStr}</div>
+            <div class="temp-sm">${temp}°C</div>
+            <div style="font-size: 0.75rem; color: #0288d1; margin-top: 2px;">🌧️ ${pop}%</div>
+          </div>
+        `;
+        }
+
+        const weatherDesc =
+          weatherCodes[current.weather_code] || "Cuaca Tidak Diketahui";
+
+        const html = `
+        <div class="current-weather">
+          <div class="temp">${Math.round(current.temperature_2m)}°C</div>
+          <div class="condition">${weatherDesc}</div>
+          <div class="details">
+            <div>💨 Kecepatan Angin<br><strong>${current.wind_speed_10m} km/h</strong></div>
+            <div>🌧️ Peluang Hujan<br><strong>${current.precipitation_probability ?? 0}%</strong></div>
+            <div>💧 Kelembapan<br><strong>${current.relative_humidity_2m}%</strong></div>
+          </div>
+        </div>
+
+        <div class="hourly-container">
+          <h2>Prakiraan 24 Jam Ke Depan</h2>
+          <div class="hourly-scroll">
+            ${hourlyHtml}
+          </div>
+        </div>
+      `;
+
+        const content = document.getElementById("weather-content");
+        content.className = "";
+        content.innerHTML = html;
+      }
+
+      // Jalankan fungsi saat halaman dibuka
+      fetchWeather();
+    </script>
+  </body>
+</html>
