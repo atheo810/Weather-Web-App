@@ -25,7 +25,7 @@
         background: rgba(255, 255, 255, 0.9);
         backdrop-filter: blur(10px);
         border-radius: 16px;
-        padding: 24px;
+        padding: 20px;
         max-width: 450px;
         width: 100%;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
@@ -35,27 +35,39 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        gap: 8px;
+        margin-bottom: 16px;
       }
 
       .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #333;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       button {
         background-color: #2e7d32;
         color: white;
         border: none;
-        padding: 8px 16px;
+        padding: 8px 14px;
         border-radius: 8px;
         cursor: pointer;
         font-weight: bold;
         transition: background 0.2s;
+        flex-shrink: 0;
+        font-size: 0.9rem;
       }
 
       button:hover {
         background-color: #1b5e20;
+      }
+
+      .refresh-btn {
+        padding: 8px 10px;
+        font-size: 1.1rem;
+        line-height: 1;
       }
 
       .current-weather {
@@ -128,22 +140,99 @@
         color: #666;
         font-style: italic;
       }
+      .search-box {
+        position: relative;
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+      .search-box input {
+        flex: 1;
+        min-width: 0;
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+      }
+      #search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 4px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        z-index: 10;
+        overflow: hidden;
+        max-height: 220px;
+        overflow-y: auto;
+      }
+      .search-result-item {
+        padding: 12px;
+        cursor: pointer;
+        font-size: 0.95rem;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .search-result-item:last-child {
+        border-bottom: none;
+      }
+      .search-result-item:hover {
+        background: #f0f4f8;
+      }
+
+      @media (max-width: 380px) {
+        .card {
+          padding: 16px;
+        }
+        .temp {
+          font-size: 2.8rem;
+        }
+        .details {
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+        }
+        .header h1 {
+          font-size: 1.1rem;
+        }
+      }
     </style>
   </head>
   <body>
     <div class="card">
       <div class="header">
-        <h1>📍 Banjarbaru</h1>
-        <button onclick="fetchWeather()">Refresh</button>
+        <h1 id="city-title">📍 Banjarbaru</h1>
+        <button
+          class="refresh-btn"
+          onclick="fetchWeather()"
+          title="Refresh"
+          aria-label="Refresh"
+        >
+          🔄
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Cari kota..."
+          onkeydown="if (event.key === 'Enter') handleSearch();"
+        />
+        <button onclick="handleSearch()">Cari</button>
+        <div id="search-results"></div>
       </div>
 
       <div id="weather-content" class="loading">Memuat data cuaca...</div>
     </div>
 
     <script>
-      // Koordinat Banjarbaru
-      const LAT = -3.4404;
-      const LON = 114.8322;
+      let currentCity = {
+        name: "Banjarbaru",
+        lat: -3.4404,
+        lon: 114.8322,
+      };
 
       // Kode WMO Weather Open-Meteo ke Teks Bahasa Indonesia
       const weatherCodes = {
@@ -172,7 +261,7 @@
         content.innerText = "Memuat data cuaca...";
 
         // Mengambil data cuaca saat ini + prakiraan per jam (termasuk 24 jam ke depan & belakang)
-        const url = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${currentCity.lat}&longitude=${currentCity.lon}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
 
         try {
           const response = await fetch(url);
@@ -190,15 +279,13 @@
         const current = data.current;
         const hourly = data.hourly;
 
-        // Ambil indeks waktu saat ini untuk menampilkan 24 jam ke depan
         const now = new Date();
         const currentHourIso = now.toISOString().slice(0, 13);
         let startIndex = hourly.time.findIndex((t) =>
           t.startsWith(currentHourIso),
         );
-        if (startIndex === -1) startIndex = 24; // Fallback ke hari ini
+        if (startIndex === -1) startIndex = 24;
 
-        // Buat HTML untuk prakiraan jam-jaman
         let hourlyHtml = "";
         for (
           let i = startIndex;
@@ -248,7 +335,54 @@
         content.innerHTML = html;
       }
 
-      // Jalankan fungsi saat halaman dibuka
+      async function searchCity(query) {
+        const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=5&language=id&format=json`;
+        const response = await fetch(url);
+        const data = await response.json();
+        return data.results || [];
+      }
+
+      async function handleSearch() {
+        const query = document.getElementById("city-input").value.trim();
+        if (!query) return;
+
+        const resultsBox = document.getElementById("search-results");
+        resultsBox.innerHTML =
+          "<div class='search-result-item'>Mencari...</div>";
+
+        const results = await searchCity(query);
+
+        if (results.length === 0) {
+          resultsBox.innerHTML =
+            "<div class='search-result-item'>Kota tidak ditemukan</div>";
+          return;
+        }
+
+        resultsBox.innerHTML = results
+          .map(
+            (r, i) => `
+      <div class="search-result-item" onclick="selectCity(${i})">
+        ${r.name}${r.admin1 ? ", " + r.admin1 : ""}, ${r.country}
+      </div>
+    `,
+          )
+          .join("");
+
+        window.__searchResults = results;
+      }
+
+      function selectCity(index) {
+        const r = window.__searchResults[index];
+        currentCity = { name: r.name, lat: r.latitude, lon: r.longitude };
+
+        document.getElementById("search-results").innerHTML = "";
+        document.getElementById("city-input").value = "";
+        document.getElementById("city-title").innerText =
+          `📍 ${currentCity.name}`;
+
+        fetchWeather();
+      }
+
       fetchWeather();
     </script>
   </body>
