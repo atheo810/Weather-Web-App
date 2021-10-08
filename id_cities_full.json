@@ -1,0 +1,3850 @@
+[
+  {
+    "name": "Jakarta",
+    "admin1": "DKI Jakarta",
+    "country": "Indonesia",
+    "lat": -6.2146,
+    "lon": 106.8451,
+    "population": 8540121
+  },
+  {
+    "name": "Surabaya",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.2492,
+    "lon": 112.7508,
+    "population": 3018022
+  },
+  {
+    "name": "Bekasi",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.2349,
+    "lon": 106.9896,
+    "population": 2648272
+  },
+  {
+    "name": "Bandung",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9222,
+    "lon": 107.6069,
+    "population": 2528163
+  },
+  {
+    "name": "Medan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.5833,
+    "lon": 98.6667,
+    "population": 2486283
+  },
+  {
+    "name": "Depok",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4,
+    "lon": 106.8186,
+    "population": 2163635
+  },
+  {
+    "name": "Tangerang",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.1781,
+    "lon": 106.63,
+    "population": 1927815
+  },
+  {
+    "name": "Palembang",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -2.9167,
+    "lon": 104.7458,
+    "population": 1801367
+  },
+  {
+    "name": "Semarang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9931,
+    "lon": 110.4208,
+    "population": 1694740
+  },
+  {
+    "name": "Makassar",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -5.1486,
+    "lon": 119.4319,
+    "population": 1474393
+  },
+  {
+    "name": "South Tangerang",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.2886,
+    "lon": 106.7179,
+    "population": 1429529
+  },
+  {
+    "name": "Batam",
+    "admin1": "Riau",
+    "country": "Indonesia",
+    "lat": 1.1494,
+    "lon": 104.0249,
+    "population": 1296960
+  },
+  {
+    "name": "Jepara",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.5924,
+    "lon": 110.671,
+    "population": 1257912
+  },
+  {
+    "name": "Pekanbaru",
+    "admin1": "Riau",
+    "country": "Indonesia",
+    "lat": 0.5167,
+    "lon": 101.4417,
+    "population": 1167599
+  },
+  {
+    "name": "Bandar Lampung",
+    "admin1": "Lampung",
+    "country": "Indonesia",
+    "lat": -5.4292,
+    "lon": 105.2611,
+    "population": 1166066
+  },
+  {
+    "name": "Bogor",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.5944,
+    "lon": 106.7892,
+    "population": 1078351
+  },
+  {
+    "name": "Padang",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.9492,
+    "lon": 100.3543,
+    "population": 942938
+  },
+  {
+    "name": "Malang",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.9797,
+    "lon": 112.6304,
+    "population": 889359
+  },
+  {
+    "name": "Samarinda",
+    "admin1": "Kalimantan Timur",
+    "country": "Indonesia",
+    "lat": -0.4917,
+    "lon": 117.1458,
+    "population": 865306
+  },
+  {
+    "name": "Tasikmalaya",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.3274,
+    "lon": 108.2207,
+    "population": 770839
+  },
+  {
+    "name": "Serang",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.1153,
+    "lon": 106.1542,
+    "population": 735651
+  },
+  {
+    "name": "Balikpapan",
+    "admin1": "Kalimantan Timur",
+    "country": "Indonesia",
+    "lat": -1.2675,
+    "lon": 116.8289,
+    "population": 695287
+  },
+  {
+    "name": "Pontianak",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": -0.0319,
+    "lon": 109.325,
+    "population": 686019
+  },
+  {
+    "name": "Situbondo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7062,
+    "lon": 114.0098,
+    "population": 685967
+  },
+  {
+    "name": "Denpasar",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.65,
+    "lon": 115.2167,
+    "population": 670210
+  },
+  {
+    "name": "Banjarmasin",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -3.3199,
+    "lon": 114.5907,
+    "population": 657663
+  },
+  {
+    "name": "Jambi City",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -1.6,
+    "lon": 103.6167,
+    "population": 635101
+  },
+  {
+    "name": "Cimahi",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8722,
+    "lon": 107.5425,
+    "population": 581994
+  },
+  {
+    "name": "Surakarta",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5561,
+    "lon": 110.8317,
+    "population": 526870
+  },
+  {
+    "name": "Kupang",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -10.1708,
+    "lon": 123.6069,
+    "population": 474801
+  },
+  {
+    "name": "Cilegon",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.0144,
+    "lon": 106.0542,
+    "population": 470378
+  },
+  {
+    "name": "Manado",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.4822,
+    "lon": 124.8489,
+    "population": 458582
+  },
+  {
+    "name": "Mataram",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.5833,
+    "lon": 116.1167,
+    "population": 441147
+  },
+  {
+    "name": "Jayapura",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -2.5337,
+    "lon": 140.7181,
+    "population": 410852
+  },
+  {
+    "name": "Bengkulu",
+    "admin1": "Bengkulu",
+    "country": "Indonesia",
+    "lat": -3.8004,
+    "lon": 102.2655,
+    "population": 397321
+  },
+  {
+    "name": "Palu",
+    "admin1": "Sulawesi Tengah",
+    "country": "Indonesia",
+    "lat": -0.9083,
+    "lon": 119.8708,
+    "population": 389959
+  },
+  {
+    "name": "Yogyakarta",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.8014,
+    "lon": 110.3647,
+    "population": 375699
+  },
+  {
+    "name": "Sukabumi",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9181,
+    "lon": 106.9267,
+    "population": 365735
+  },
+  {
+    "name": "Cibinong",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4817,
+    "lon": 106.8542,
+    "population": 363424
+  },
+  {
+    "name": "Kendari",
+    "admin1": "Sulawesi Tenggara",
+    "country": "Indonesia",
+    "lat": -3.9778,
+    "lon": 122.5151,
+    "population": 351085
+  },
+  {
+    "name": "Dumai",
+    "admin1": "Riau",
+    "country": "Indonesia",
+    "lat": 1.6671,
+    "lon": 101.4432,
+    "population": 349389
+  },
+  {
+    "name": "Ambon",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -3.6958,
+    "lon": 128.1833,
+    "population": 347288
+  },
+  {
+    "name": "Cirebon",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7063,
+    "lon": 108.557,
+    "population": 344851
+  },
+  {
+    "name": "Pekalongan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8886,
+    "lon": 109.6753,
+    "population": 324564
+  },
+  {
+    "name": "Palangkaraya",
+    "admin1": "Kalimantan Tengah",
+    "country": "Indonesia",
+    "lat": -2.2083,
+    "lon": 113.9167,
+    "population": 318247
+  },
+  {
+    "name": "Percut",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.6253,
+    "lon": 98.864,
+    "population": 311063
+  },
+  {
+    "name": "Karawang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.3053,
+    "lon": 107.3197,
+    "population": 307880
+  },
+  {
+    "name": "Kediri",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.8167,
+    "lon": 112.0167,
+    "population": 301424
+  },
+  {
+    "name": "Jember",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1721,
+    "lon": 113.6995,
+    "population": 298585
+  },
+  {
+    "name": "Tegal",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8694,
+    "lon": 109.1402,
+    "population": 297173
+  },
+  {
+    "name": "Banjarbaru",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -3.4406,
+    "lon": 114.8365,
+    "population": 293332
+  },
+  {
+    "name": "Cileungsir",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.3947,
+    "lon": 106.9592,
+    "population": 289833
+  },
+  {
+    "name": "Binjai",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.6001,
+    "lon": 98.4854,
+    "population": 279302
+  },
+  {
+    "name": "Pematangsiantar",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.9595,
+    "lon": 99.0687,
+    "population": 279198
+  },
+  {
+    "name": "Banda Aceh",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.5417,
+    "lon": 95.3333,
+    "population": 267962
+  },
+  {
+    "name": "Pasarkemis",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.1703,
+    "lon": 106.5303,
+    "population": 263289
+  },
+  {
+    "name": "Cilacap",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7264,
+    "lon": 109.0094,
+    "population": 256996
+  },
+  {
+    "name": "Tarakan",
+    "admin1": "Kalimantan Utara",
+    "country": "Indonesia",
+    "lat": 3.3133,
+    "lon": 117.5915,
+    "population": 255310
+  },
+  {
+    "name": "Singkawang",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 0.9093,
+    "lon": 108.9846,
+    "population": 253812
+  },
+  {
+    "name": "Padangsidempuan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 1.3795,
+    "lon": 99.2715,
+    "population": 243843
+  },
+  {
+    "name": "Probolinggo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7543,
+    "lon": 113.2159,
+    "population": 243746
+  },
+  {
+    "name": "Toli-Toli",
+    "admin1": "Sulawesi Tengah",
+    "country": "Indonesia",
+    "lat": 1.0402,
+    "lon": 120.8176,
+    "population": 242783
+  },
+  {
+    "name": "Lubuklinggau",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -3.2945,
+    "lon": 102.8614,
+    "population": 234166
+  },
+  {
+    "name": "Purwokerto",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.4214,
+    "lon": 109.2344,
+    "population": 230235
+  },
+  {
+    "name": "Tanjung Pinang",
+    "admin1": "Kepulauan Riau",
+    "country": "Indonesia",
+    "lat": 0.9167,
+    "lon": 104.4583,
+    "population": 227663
+  },
+  {
+    "name": "Pangkalpinang",
+    "admin1": "Kepulauan Bangka Belitung",
+    "country": "Indonesia",
+    "lat": -2.1291,
+    "lon": 106.1138,
+    "population": 226297
+  },
+  {
+    "name": "Batu",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.87,
+    "lon": 112.5283,
+    "population": 225408
+  },
+  {
+    "name": "Bitung",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.4406,
+    "lon": 125.1282,
+    "population": 225134
+  },
+  {
+    "name": "Klungkung",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.5333,
+    "lon": 115.4,
+    "population": 223720
+  },
+  {
+    "name": "Sorong",
+    "admin1": "Papua Barat Daya",
+    "country": "Indonesia",
+    "lat": -0.8796,
+    "lon": 131.261,
+    "population": 219958
+  },
+  {
+    "name": "Citeureup",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4856,
+    "lon": 106.8819,
+    "population": 214668
+  },
+  {
+    "name": "Pasuruan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6453,
+    "lon": 112.9075,
+    "population": 213469
+  },
+  {
+    "name": "Loa Janan",
+    "admin1": "Kalimantan Timur",
+    "country": "Indonesia",
+    "lat": -0.5829,
+    "lon": 117.095,
+    "population": 212816
+  },
+  {
+    "name": "Ternate",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 0.7906,
+    "lon": 127.3842,
+    "population": 210836
+  },
+  {
+    "name": "Banjar",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.1955,
+    "lon": 107.4313,
+    "population": 209791
+  },
+  {
+    "name": "Ciputat",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.2375,
+    "lon": 106.6956,
+    "population": 207858
+  },
+  {
+    "name": "Ciampea",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.5547,
+    "lon": 106.7008,
+    "population": 207212
+  },
+  {
+    "name": "Gorontalo",
+    "admin1": "Gorontalo",
+    "country": "Indonesia",
+    "lat": 0.5375,
+    "lon": 123.0625,
+    "population": 205390
+  },
+  {
+    "name": "Madiun",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6298,
+    "lon": 111.5239,
+    "population": 202544
+  },
+  {
+    "name": "Rengasdengklok",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.1592,
+    "lon": 107.2981,
+    "population": 201463
+  },
+  {
+    "name": "Lhokseumawe",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.1801,
+    "lon": 97.1507,
+    "population": 200876
+  },
+  {
+    "name": "Sumedang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8586,
+    "lon": 107.9164,
+    "population": 200000
+  },
+  {
+    "name": "Salatiga",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.3319,
+    "lon": 110.4928,
+    "population": 198971
+  },
+  {
+    "name": "Sawangan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4028,
+    "lon": 106.7744,
+    "population": 197170
+  },
+  {
+    "name": "Bontang",
+    "admin1": "Kalimantan Timur",
+    "country": "Indonesia",
+    "lat": 0.1324,
+    "lon": 117.4854,
+    "population": 194606
+  },
+  {
+    "name": "Padalarang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8378,
+    "lon": 107.4728,
+    "population": 193114
+  },
+  {
+    "name": "Curug",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.2658,
+    "lon": 106.5564,
+    "population": 191406
+  },
+  {
+    "name": "Tanjungbalai",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.9667,
+    "lon": 99.8,
+    "population": 190935
+  },
+  {
+    "name": "Labuan Bajo",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.4964,
+    "lon": 119.8877,
+    "population": 188724
+  },
+  {
+    "name": "Palopo",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -2.9925,
+    "lon": 120.1969,
+    "population": 184961
+  },
+  {
+    "name": "Pemalang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8919,
+    "lon": 109.3826,
+    "population": 184149
+  },
+  {
+    "name": "Langsa",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 4.4683,
+    "lon": 97.9683,
+    "population": 184016
+  },
+  {
+    "name": "Lembang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8117,
+    "lon": 107.6175,
+    "population": 183130
+  },
+  {
+    "name": "Singosari",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.8924,
+    "lon": 112.6658,
+    "population": 182656
+  },
+  {
+    "name": "Metro",
+    "admin1": "Lampung",
+    "country": "Indonesia",
+    "lat": -5.1131,
+    "lon": 105.3067,
+    "population": 182293
+  },
+  {
+    "name": "Purwakarta",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.5569,
+    "lon": 107.4433,
+    "population": 179233
+  },
+  {
+    "name": "Teluknaga",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.0989,
+    "lon": 106.6381,
+    "population": 175155
+  },
+  {
+    "name": "Cianjur",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8222,
+    "lon": 107.1394,
+    "population": 174587
+  },
+  {
+    "name": "Pamulang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.3428,
+    "lon": 106.7383,
+    "population": 174557
+  },
+  {
+    "name": "Cikupa",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.2364,
+    "lon": 106.5083,
+    "population": 174041
+  },
+  {
+    "name": "Ungaran",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.1397,
+    "lon": 110.405,
+    "population": 171378
+  },
+  {
+    "name": "Plumbon",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.705,
+    "lon": 108.4728,
+    "population": 167105
+  },
+  {
+    "name": "Sampit",
+    "admin1": "Kalimantan Tengah",
+    "country": "Indonesia",
+    "lat": -2.5315,
+    "lon": 112.9496,
+    "population": 166773
+  },
+  {
+    "name": "Bima",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.4601,
+    "lon": 118.7267,
+    "population": 165113
+  },
+  {
+    "name": "Banjaran",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.0453,
+    "lon": 107.5878,
+    "population": 164952
+  },
+  {
+    "name": "Baubau",
+    "admin1": "Sulawesi Tenggara",
+    "country": "Indonesia",
+    "lat": -5.4633,
+    "lon": 122.6024,
+    "population": 161280
+  },
+  {
+    "name": "Blitar",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.0983,
+    "lon": 112.1681,
+    "population": 161204
+  },
+  {
+    "name": "Parepare",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -4.0135,
+    "lon": 119.6255,
+    "population": 160309
+  },
+  {
+    "name": "Sunggal",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.5765,
+    "lon": 98.6151,
+    "population": 157914
+  },
+  {
+    "name": "Perbaungan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.5679,
+    "lon": 98.956,
+    "population": 157174
+  },
+  {
+    "name": "Watampone",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -4.5386,
+    "lon": 120.3279,
+    "population": 149336
+  },
+  {
+    "name": "Astanajapura",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8017,
+    "lon": 108.6311,
+    "population": 148047
+  },
+  {
+    "name": "Nusantara",
+    "admin1": "Kalimantan Timur",
+    "country": "Indonesia",
+    "lat": -0.9731,
+    "lon": 116.7086,
+    "population": 147430
+  },
+  {
+    "name": "Timika",
+    "admin1": "Papua Tengah",
+    "country": "Indonesia",
+    "lat": -4.6141,
+    "lon": 136.6768,
+    "population": 142909
+  },
+  {
+    "name": "Kisaran",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.9845,
+    "lon": 99.6158,
+    "population": 141915
+  },
+  {
+    "name": "Mojokerto",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4664,
+    "lon": 112.4338,
+    "population": 141785
+  },
+  {
+    "name": "Payakumbuh",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.2159,
+    "lon": 100.6334,
+    "population": 139576
+  },
+  {
+    "name": "Batang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.4846,
+    "lon": 110.7083,
+    "population": 139492
+  },
+  {
+    "name": "Purwodadi",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0868,
+    "lon": 110.9158,
+    "population": 139387
+  },
+  {
+    "name": "Sidoarjo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4478,
+    "lon": 112.7183,
+    "population": 139189
+  },
+  {
+    "name": "Weru",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.711,
+    "lon": 108.5037,
+    "population": 139004
+  },
+  {
+    "name": "Subang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.57,
+    "lon": 107.7567,
+    "population": 137234
+  },
+  {
+    "name": "Rangkasbitung",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.3591,
+    "lon": 106.2494,
+    "population": 137041
+  },
+  {
+    "name": "Gunungsitoli",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 1.2888,
+    "lon": 97.6143,
+    "population": 136707
+  },
+  {
+    "name": "Baturaja",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -4.1289,
+    "lon": 104.1669,
+    "population": 134759
+  },
+  {
+    "name": "Adiwerna",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9375,
+    "lon": 109.1325,
+    "population": 134188
+  },
+  {
+    "name": "Singaraja",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.112,
+    "lon": 115.0882,
+    "population": 133784
+  },
+  {
+    "name": "Manokwari",
+    "admin1": "Papua Barat",
+    "country": "Indonesia",
+    "lat": -0.8629,
+    "lon": 134.064,
+    "population": 132300
+  },
+  {
+    "name": "Garut",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.245,
+    "lon": 107.921,
+    "population": 131809
+  },
+  {
+    "name": "Martapura",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -3.4109,
+    "lon": 114.8642,
+    "population": 131449
+  },
+  {
+    "name": "Parung",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4214,
+    "lon": 106.7331,
+    "population": 128905
+  },
+  {
+    "name": "Magelang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.4706,
+    "lon": 110.2178,
+    "population": 128709
+  },
+  {
+    "name": "Cikampek",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4197,
+    "lon": 107.4558,
+    "population": 127173
+  },
+  {
+    "name": "Klaten",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7058,
+    "lon": 110.6064,
+    "population": 126831
+  },
+  {
+    "name": "Jombang",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.546,
+    "lon": 112.2331,
+    "population": 126465
+  },
+  {
+    "name": "Paseh",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.068,
+    "lon": 107.794,
+    "population": 126181
+  },
+  {
+    "name": "Sukawati",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.4913,
+    "lon": 115.0459,
+    "population": 125470
+  },
+  {
+    "name": "Lumajang",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1335,
+    "lon": 113.2248,
+    "population": 123626
+  },
+  {
+    "name": "Indramayu",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.3264,
+    "lon": 108.32,
+    "population": 123263
+  },
+  {
+    "name": "Kotamobagu",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 0.7419,
+    "lon": 124.3121,
+    "population": 121756
+  },
+  {
+    "name": "Bukittinggi",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.3091,
+    "lon": 100.3705,
+    "population": 121028
+  },
+  {
+    "name": "Sepatan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.1189,
+    "lon": 106.575,
+    "population": 118439
+  },
+  {
+    "name": "Banyuwangi",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.2325,
+    "lon": 114.3576,
+    "population": 117558
+  },
+  {
+    "name": "Tebingtinggi",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.3285,
+    "lon": 99.1625,
+    "population": 117530
+  },
+  {
+    "name": "Kedungwuni",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9704,
+    "lon": 109.6479,
+    "population": 117249
+  },
+  {
+    "name": "Merauke",
+    "admin1": "Papua Selatan",
+    "country": "Indonesia",
+    "lat": -8.4996,
+    "lon": 140.4061,
+    "population": 116864
+  },
+  {
+    "name": "Soreang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.0331,
+    "lon": 107.5183,
+    "population": 116780
+  },
+  {
+    "name": "Pamanukan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.2842,
+    "lon": 107.8106,
+    "population": 114290
+  },
+  {
+    "name": "Lawang",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.8353,
+    "lon": 112.6947,
+    "population": 112540
+  },
+  {
+    "name": "Kuningan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9758,
+    "lon": 108.4831,
+    "population": 111742
+  },
+  {
+    "name": "Cileunyi",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9389,
+    "lon": 107.7528,
+    "population": 111476
+  },
+  {
+    "name": "Kresek",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.1314,
+    "lon": 106.3797,
+    "population": 110182
+  },
+  {
+    "name": "Ciamis",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.3257,
+    "lon": 108.3534,
+    "population": 109839
+  },
+  {
+    "name": "Pelabuhanratu",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9875,
+    "lon": 106.5514,
+    "population": 109523
+  },
+  {
+    "name": "Pangkalanbuun",
+    "admin1": "Kalimantan Tengah",
+    "country": "Indonesia",
+    "lat": -2.6832,
+    "lon": 111.6259,
+    "population": 108814
+  },
+  {
+    "name": "Pati",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.7559,
+    "lon": 111.038,
+    "population": 107028
+  },
+  {
+    "name": "Cikarang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.2611,
+    "lon": 107.1528,
+    "population": 106479
+  },
+  {
+    "name": "Pare",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7679,
+    "lon": 112.198,
+    "population": 106007
+  },
+  {
+    "name": "Arjawinangun",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.6453,
+    "lon": 108.4103,
+    "population": 105845
+  },
+  {
+    "name": "Subulussalam",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 2.662,
+    "lon": 97.8827,
+    "population": 105553
+  },
+  {
+    "name": "Depok",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.7625,
+    "lon": 110.4317,
+    "population": 104527
+  },
+  {
+    "name": "Prabumulih",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -3.4345,
+    "lon": 104.2306,
+    "population": 103470
+  },
+  {
+    "name": "Tanjung Pandan",
+    "admin1": "Kepulauan Bangka Belitung",
+    "country": "Indonesia",
+    "lat": -2.7335,
+    "lon": 107.6348,
+    "population": 103062
+  },
+  {
+    "name": "Rantauprapat",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.1,
+    "lon": 99.8333,
+    "population": 103009
+  },
+  {
+    "name": "Belawan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.7755,
+    "lon": 98.6832,
+    "population": 102707
+  },
+  {
+    "name": "Sungai Penuh",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -2.0561,
+    "lon": 101.3913,
+    "population": 102224
+  },
+  {
+    "name": "Sungailiat",
+    "admin1": "Kepulauan Bangka Belitung",
+    "country": "Indonesia",
+    "lat": -1.8544,
+    "lon": 106.1222,
+    "population": 100750
+  },
+  {
+    "name": "Grogol",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6011,
+    "lon": 110.8186,
+    "population": 100613
+  },
+  {
+    "name": "Negara",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.3569,
+    "lon": 114.6169,
+    "population": 100074
+  },
+  {
+    "name": "Sumedang Utara",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.85,
+    "lon": 107.9167,
+    "population": 100000
+  },
+  {
+    "name": "Nabire",
+    "admin1": "Papua Tengah",
+    "country": "Indonesia",
+    "lat": -3.3599,
+    "lon": 135.5007,
+    "population": 99848
+  },
+  {
+    "name": "Dukuhturi",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9,
+    "lon": 109.0833,
+    "population": 98074
+  },
+  {
+    "name": "Sumber",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7603,
+    "lon": 108.4831,
+    "population": 96725
+  },
+  {
+    "name": "Wonosobo",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.3589,
+    "lon": 109.9031,
+    "population": 92990
+  },
+  {
+    "name": "Palimanan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7069,
+    "lon": 108.4242,
+    "population": 92600
+  },
+  {
+    "name": "Selong",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.6503,
+    "lon": 116.5318,
+    "population": 92464
+  },
+  {
+    "name": "Pamekasan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1568,
+    "lon": 113.4746,
+    "population": 92447
+  },
+  {
+    "name": "Pandeglang",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.3084,
+    "lon": 106.1067,
+    "population": 92316
+  },
+  {
+    "name": "Sibolga",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 1.7402,
+    "lon": 98.7812,
+    "population": 92244
+  },
+  {
+    "name": "Pariaman",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.619,
+    "lon": 100.12,
+    "population": 92183
+  },
+  {
+    "name": "Kudus",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8048,
+    "lon": 110.8405,
+    "population": 92156
+  },
+  {
+    "name": "Caringin",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7061,
+    "lon": 106.8214,
+    "population": 91845
+  },
+  {
+    "name": "Tual",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -5.6288,
+    "lon": 132.7523,
+    "population": 90470
+  },
+  {
+    "name": "Banjar",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.19,
+    "lon": 114.9675,
+    "population": 89040
+  },
+  {
+    "name": "Cicurug",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7814,
+    "lon": 106.7825,
+    "population": 88965
+  },
+  {
+    "name": "Kartasura",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5519,
+    "lon": 110.7378,
+    "population": 88927
+  },
+  {
+    "name": "Klangenan",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7094,
+    "lon": 108.44,
+    "population": 88378
+  },
+  {
+    "name": "Maumere",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.6199,
+    "lon": 122.2111,
+    "population": 87720
+  },
+  {
+    "name": "Wonosari",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.9656,
+    "lon": 110.6036,
+    "population": 87454
+  },
+  {
+    "name": "Ende",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.8432,
+    "lon": 121.6623,
+    "population": 87269
+  },
+  {
+    "name": "Bojonegoro",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1502,
+    "lon": 111.8817,
+    "population": 86568
+  },
+  {
+    "name": "Bangkalan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.0455,
+    "lon": 112.7351,
+    "population": 86250
+  },
+  {
+    "name": "Kasihan",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.8269,
+    "lon": 110.3292,
+    "population": 86234
+  },
+  {
+    "name": "Bangil",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.5994,
+    "lon": 112.8186,
+    "population": 85504
+  },
+  {
+    "name": "Sintang",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 0.0667,
+    "lon": 111.5,
+    "population": 85000
+  },
+  {
+    "name": "Sumenep",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.0115,
+    "lon": 113.8604,
+    "population": 84656
+  },
+  {
+    "name": "Margahayukencana",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.9708,
+    "lon": 107.5675,
+    "population": 83119
+  },
+  {
+    "name": "Galesong",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -5.3166,
+    "lon": 119.3661,
+    "population": 83050
+  },
+  {
+    "name": "Atambua",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -9.1061,
+    "lon": 124.8925,
+    "population": 82196
+  },
+  {
+    "name": "Muntilan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5811,
+    "lon": 110.2928,
+    "population": 81555
+  },
+  {
+    "name": "Kedungwaru",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.0667,
+    "lon": 111.9167,
+    "population": 80257
+  },
+  {
+    "name": "Serpong",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.3169,
+    "lon": 106.6642,
+    "population": 80193
+  },
+  {
+    "name": "Genteng",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.3667,
+    "lon": 114.15,
+    "population": 79652
+  },
+  {
+    "name": "Gedangan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.3908,
+    "lon": 112.7267,
+    "population": 79230
+  },
+  {
+    "name": "Ponorogo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.8685,
+    "lon": 111.462,
+    "population": 79026
+  },
+  {
+    "name": "Ciranjang-hilir",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.82,
+    "lon": 107.2572,
+    "population": 77758
+  },
+  {
+    "name": "Tuban",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -6.8976,
+    "lon": 112.0649,
+    "population": 76242
+  },
+  {
+    "name": "Kebomas",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1667,
+    "lon": 112.6333,
+    "population": 75982
+  },
+  {
+    "name": "Karangsembung",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8487,
+    "lon": 108.6422,
+    "population": 75856
+  },
+  {
+    "name": "Tarub",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9333,
+    "lon": 109.1667,
+    "population": 75739
+  },
+  {
+    "name": "Ubud",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.5098,
+    "lon": 115.2654,
+    "population": 74800
+  },
+  {
+    "name": "Majene",
+    "admin1": "Sulawesi Barat",
+    "country": "Indonesia",
+    "lat": -3.5403,
+    "lon": 118.9707,
+    "population": 73883
+  },
+  {
+    "name": "Gresik",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1539,
+    "lon": 112.6561,
+    "population": 73629
+  },
+  {
+    "name": "Sewon",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.8764,
+    "lon": 110.3589,
+    "population": 73585
+  },
+  {
+    "name": "Kabanjahe",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.1001,
+    "lon": 98.4908,
+    "population": 73581
+  },
+  {
+    "name": "Solok",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.8006,
+    "lon": 100.6571,
+    "population": 73438
+  },
+  {
+    "name": "Majalengka",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.8361,
+    "lon": 108.2278,
+    "population": 73052
+  },
+  {
+    "name": "Jatibarang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4747,
+    "lon": 108.3153,
+    "population": 73010
+  },
+  {
+    "name": "Sragen",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.4264,
+    "lon": 111.0222,
+    "population": 71522
+  },
+  {
+    "name": "Pagar Alam",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -4.0251,
+    "lon": 103.2469,
+    "population": 70386
+  },
+  {
+    "name": "Raha",
+    "admin1": "Sulawesi Tenggara",
+    "country": "Indonesia",
+    "lat": -4.838,
+    "lon": 122.7209,
+    "population": 69980
+  },
+  {
+    "name": "Mertoyudan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.52,
+    "lon": 110.2264,
+    "population": 69871
+  },
+  {
+    "name": "Bondowoso",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.9135,
+    "lon": 113.8214,
+    "population": 69783
+  },
+  {
+    "name": "Nganjuk",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6051,
+    "lon": 111.9035,
+    "population": 69011
+  },
+  {
+    "name": "Tanjung Selor",
+    "admin1": "Kalimantan Utara",
+    "country": "Indonesia",
+    "lat": 2.8375,
+    "lon": 117.3653,
+    "population": 67837
+  },
+  {
+    "name": "Melati",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.7333,
+    "lon": 110.3667,
+    "population": 67090
+  },
+  {
+    "name": "Nunukan",
+    "admin1": "Kalimantan Utara",
+    "country": "Indonesia",
+    "lat": 4.1384,
+    "lon": 117.6507,
+    "population": 67006
+  },
+  {
+    "name": "Sokaraja",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.4581,
+    "lon": 109.2881,
+    "population": 66482
+  },
+  {
+    "name": "Gamping Lor",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.7956,
+    "lon": 110.3264,
+    "population": 66110
+  },
+  {
+    "name": "Wamena",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -4.0958,
+    "lon": 138.9481,
+    "population": 66080
+  },
+  {
+    "name": "Lahat",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -3.7851,
+    "lon": 103.5428,
+    "population": 65906
+  },
+  {
+    "name": "Polewali",
+    "admin1": "Sulawesi Barat",
+    "country": "Indonesia",
+    "lat": -3.4324,
+    "lon": 119.3435,
+    "population": 65800
+  },
+  {
+    "name": "Tulungagung",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.0657,
+    "lon": 111.9025,
+    "population": 65262
+  },
+  {
+    "name": "Ambarawa",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.2633,
+    "lon": 110.3975,
+    "population": 65096
+  },
+  {
+    "name": "Meulaboh",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 4.144,
+    "lon": 96.1266,
+    "population": 64646
+  },
+  {
+    "name": "Muncar",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.4333,
+    "lon": 114.3333,
+    "population": 64537
+  },
+  {
+    "name": "Bantul",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.8881,
+    "lon": 110.3289,
+    "population": 64360
+  },
+  {
+    "name": "Tulangan Utara",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4737,
+    "lon": 112.6505,
+    "population": 63889
+  },
+  {
+    "name": "Godean",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.7697,
+    "lon": 110.2939,
+    "population": 63164
+  },
+  {
+    "name": "Sumbawa Besar",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.4932,
+    "lon": 117.4202,
+    "population": 62753
+  },
+  {
+    "name": "Abepura",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -2.5964,
+    "lon": 140.6324,
+    "population": 62248
+  },
+  {
+    "name": "Slawi",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9816,
+    "lon": 109.1407,
+    "population": 61206
+  },
+  {
+    "name": "Pecangaan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.6978,
+    "lon": 110.7107,
+    "population": 61046
+  },
+  {
+    "name": "Kertosono",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.5833,
+    "lon": 112.1,
+    "population": 60782
+  },
+  {
+    "name": "Boyolali",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5331,
+    "lon": 110.5958,
+    "population": 59851
+  },
+  {
+    "name": "Sengkang",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -4.1279,
+    "lon": 120.0297,
+    "population": 59523
+  },
+  {
+    "name": "Lamongan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1167,
+    "lon": 112.4167,
+    "population": 59224
+  },
+  {
+    "name": "Baki",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6128,
+    "lon": 110.7839,
+    "population": 58909
+  },
+  {
+    "name": "Padangpanjang",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.456,
+    "lon": 100.4052,
+    "population": 58627
+  },
+  {
+    "name": "Weleri",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9713,
+    "lon": 110.0666,
+    "population": 58448
+  },
+  {
+    "name": "Jatiwangi",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.7336,
+    "lon": 108.2628,
+    "population": 57973
+  },
+  {
+    "name": "Baekrajan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.7674,
+    "lon": 110.8541,
+    "population": 57920
+  },
+  {
+    "name": "Kota Sambas",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 1.3626,
+    "lon": 109.3009,
+    "population": 57295
+  },
+  {
+    "name": "Purbalingga",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.3881,
+    "lon": 109.3639,
+    "population": 56903
+  },
+  {
+    "name": "Balai Pungut",
+    "admin1": "Riau",
+    "country": "Indonesia",
+    "lat": 1.0595,
+    "lon": 101.2905,
+    "population": 56452
+  },
+  {
+    "name": "Mendaha",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -1.0163,
+    "lon": 103.5933,
+    "population": 56268
+  },
+  {
+    "name": "Sleman",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.7156,
+    "lon": 110.3556,
+    "population": 56215
+  },
+  {
+    "name": "Pandak",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.9131,
+    "lon": 110.2936,
+    "population": 56043
+  },
+  {
+    "name": "Barabai",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -2.5833,
+    "lon": 115.3833,
+    "population": 55956
+  },
+  {
+    "name": "Amuntai",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -2.4177,
+    "lon": 115.2494,
+    "population": 55560
+  },
+  {
+    "name": "Besuki",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7338,
+    "lon": 113.6979,
+    "population": 55465
+  },
+  {
+    "name": "Taliwang",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.7449,
+    "lon": 116.8532,
+    "population": 55340
+  },
+  {
+    "name": "Wedi",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7431,
+    "lon": 110.5794,
+    "population": 55300
+  },
+  {
+    "name": "Cepu",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.1475,
+    "lon": 111.5906,
+    "population": 55055
+  },
+  {
+    "name": "Dompu",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.5365,
+    "lon": 118.4634,
+    "population": 54987
+  },
+  {
+    "name": "Pemangkat",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 1.1667,
+    "lon": 108.9667,
+    "population": 54259
+  },
+  {
+    "name": "Sampang",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1872,
+    "lon": 113.2394,
+    "population": 53269
+  },
+  {
+    "name": "Tanjungagung",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -3.9373,
+    "lon": 103.8046,
+    "population": 53117
+  },
+  {
+    "name": "Terbanggi Besar",
+    "admin1": "Lampung",
+    "country": "Indonesia",
+    "lat": -4.879,
+    "lon": 105.2182,
+    "population": 52566
+  },
+  {
+    "name": "Dobo",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -5.7609,
+    "lon": 134.234,
+    "population": 52104
+  },
+  {
+    "name": "Kepanjen",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1303,
+    "lon": 112.5727,
+    "population": 51919
+  },
+  {
+    "name": "Blora",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9698,
+    "lon": 111.4186,
+    "population": 51811
+  },
+  {
+    "name": "Comal",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9053,
+    "lon": 109.5347,
+    "population": 51092
+  },
+  {
+    "name": "Gombong",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6072,
+    "lon": 109.5142,
+    "population": 50950
+  },
+  {
+    "name": "Sidikalang",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.749,
+    "lon": 98.3127,
+    "population": 50671
+  },
+  {
+    "name": "Sangkapura",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -5.8453,
+    "lon": 112.6517,
+    "population": 50612
+  },
+  {
+    "name": "Kawalu",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.3817,
+    "lon": 108.2082,
+    "population": 50541
+  },
+  {
+    "name": "Amahai",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -3.3398,
+    "lon": 128.9197,
+    "population": 50478
+  },
+  {
+    "name": "Jatiroto",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.8833,
+    "lon": 111.1167,
+    "population": 50059
+  },
+  {
+    "name": "Labuhan Deli",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.879,
+    "lon": 98.633,
+    "population": 49668
+  },
+  {
+    "name": "Gampengrejo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.764,
+    "lon": 112.035,
+    "population": 49118
+  },
+  {
+    "name": "Gatak",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5908,
+    "lon": 110.7044,
+    "population": 48959
+  },
+  {
+    "name": "Tanjung Balai",
+    "admin1": "Kepulauan Riau",
+    "country": "Indonesia",
+    "lat": 1.0001,
+    "lon": 103.4219,
+    "population": 48953
+  },
+  {
+    "name": "Singaparna",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.3515,
+    "lon": 108.111,
+    "population": 48882
+  },
+  {
+    "name": "Banyumas",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5142,
+    "lon": 109.2942,
+    "population": 48378
+  },
+  {
+    "name": "Pameungpeuk",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.0183,
+    "lon": 107.6039,
+    "population": 48294
+  },
+  {
+    "name": "Berastagi",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.1947,
+    "lon": 98.5089,
+    "population": 48244
+  },
+  {
+    "name": "Kefamenanu",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -9.4467,
+    "lon": 124.4781,
+    "population": 48202
+  },
+  {
+    "name": "Buduran",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4281,
+    "lon": 112.7234,
+    "population": 48152
+  },
+  {
+    "name": "Luwuk",
+    "admin1": "Sulawesi Tengah",
+    "country": "Indonesia",
+    "lat": -0.9516,
+    "lon": 122.7875,
+    "population": 47778
+  },
+  {
+    "name": "Sungai Raya",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 0.7,
+    "lon": 108.9,
+    "population": 47735
+  },
+  {
+    "name": "Bireun",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.203,
+    "lon": 96.7009,
+    "population": 47670
+  },
+  {
+    "name": "Balung",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7333,
+    "lon": 113.9167,
+    "population": 47631
+  },
+  {
+    "name": "Poso",
+    "admin1": "Sulawesi Tengah",
+    "country": "Indonesia",
+    "lat": -1.3959,
+    "lon": 120.7524,
+    "population": 47477
+  },
+  {
+    "name": "Karanganom",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6489,
+    "lon": 110.625,
+    "population": 47179
+  },
+  {
+    "name": "Singkil",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 2.2874,
+    "lon": 97.7884,
+    "population": 46800
+  },
+  {
+    "name": "Muara Teweh",
+    "admin1": "Kalimantan Tengah",
+    "country": "Indonesia",
+    "lat": -0.9473,
+    "lon": 114.8962,
+    "population": 46652
+  },
+  {
+    "name": "Curup",
+    "admin1": "Bengkulu",
+    "country": "Indonesia",
+    "lat": -3.4703,
+    "lon": 102.5207,
+    "population": 46245
+  },
+  {
+    "name": "Candi Prambanan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.75,
+    "lon": 110.4942,
+    "population": 44925
+  },
+  {
+    "name": "Sentani",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -2.5691,
+    "lon": 140.5127,
+    "population": 44779
+  },
+  {
+    "name": "Bambanglipuro",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.95,
+    "lon": 110.2833,
+    "population": 44713
+  },
+  {
+    "name": "Ketanggungan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9383,
+    "lon": 108.891,
+    "population": 44288
+  },
+  {
+    "name": "Rembangan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.7036,
+    "lon": 111.3416,
+    "population": 44030
+  },
+  {
+    "name": "Gebog",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.735,
+    "lon": 110.8444,
+    "population": 43756
+  },
+  {
+    "name": "Sabang",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.8897,
+    "lon": 95.3164,
+    "population": 43527
+  },
+  {
+    "name": "Kencong",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.2833,
+    "lon": 113.3667,
+    "population": 43046
+  },
+  {
+    "name": "Panji",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7253,
+    "lon": 114.0995,
+    "population": 42789
+  },
+  {
+    "name": "Indralaya",
+    "admin1": "Sumatera Selatan",
+    "country": "Indonesia",
+    "lat": -3.2525,
+    "lon": 104.6756,
+    "population": 42498
+  },
+  {
+    "name": "Baturaden",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.3,
+    "lon": 109.2167,
+    "population": 42394
+  },
+  {
+    "name": "Kotabumi",
+    "admin1": "Lampung",
+    "country": "Indonesia",
+    "lat": -4.8251,
+    "lon": 104.8817,
+    "population": 42366
+  },
+  {
+    "name": "Biak",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -1.1767,
+    "lon": 136.082,
+    "population": 41731
+  },
+  {
+    "name": "Diwek",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.579,
+    "lon": 112.2311,
+    "population": 41719
+  },
+  {
+    "name": "Ruteng",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.6114,
+    "lon": 120.4644,
+    "population": 41533
+  },
+  {
+    "name": "Sinjai",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -5.1241,
+    "lon": 120.253,
+    "population": 40797
+  },
+  {
+    "name": "Rantepao",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -2.9701,
+    "lon": 119.8978,
+    "population": 40438
+  },
+  {
+    "name": "Reuleuet",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.2167,
+    "lon": 96.2833,
+    "population": 40393
+  },
+  {
+    "name": "Soe",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -9.8607,
+    "lon": 124.284,
+    "population": 40190
+  },
+  {
+    "name": "Juwana",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.715,
+    "lon": 111.1514,
+    "population": 40177
+  },
+  {
+    "name": "Pekan Bahapal",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.1131,
+    "lon": 99.1735,
+    "population": 40000
+  },
+  {
+    "name": "Rajapolah",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.221,
+    "lon": 108.1896,
+    "population": 39840
+  },
+  {
+    "name": "Benoa",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.7548,
+    "lon": 115.2184,
+    "population": 39570
+  },
+  {
+    "name": "Tarutung",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.0147,
+    "lon": 98.9655,
+    "population": 39500
+  },
+  {
+    "name": "Wiradesa",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8922,
+    "lon": 109.619,
+    "population": 39407
+  },
+  {
+    "name": "Manggar",
+    "admin1": "Kepulauan Bangka Belitung",
+    "country": "Indonesia",
+    "lat": -2.8833,
+    "lon": 108.2667,
+    "population": 39135
+  },
+  {
+    "name": "Majenang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.2975,
+    "lon": 108.7642,
+    "population": 38897
+  },
+  {
+    "name": "Buaran",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.05,
+    "lon": 109.55,
+    "population": 38770
+  },
+  {
+    "name": "Krian",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4104,
+    "lon": 112.5792,
+    "population": 38603
+  },
+  {
+    "name": "Wonopringgo",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.9833,
+    "lon": 109.6167,
+    "population": 38429
+  },
+  {
+    "name": "Masamba",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -2.5537,
+    "lon": 120.3279,
+    "population": 38024
+  },
+  {
+    "name": "Namlea",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -3.2619,
+    "lon": 127.0929,
+    "population": 37869
+  },
+  {
+    "name": "Jekulo",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8057,
+    "lon": 110.9262,
+    "population": 37521
+  },
+  {
+    "name": "Karangnongko",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7956,
+    "lon": 110.5867,
+    "population": 37420
+  },
+  {
+    "name": "Tanjung",
+    "admin1": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "lat": -2.1709,
+    "lon": 115.4077,
+    "population": 37291
+  },
+  {
+    "name": "Simpang",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -1.2642,
+    "lon": 104.097,
+    "population": 36652
+  },
+  {
+    "name": "Masohi",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -3.2983,
+    "lon": 128.9688,
+    "population": 36433
+  },
+  {
+    "name": "Srono",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.4,
+    "lon": 114.2666,
+    "population": 36260
+  },
+  {
+    "name": "Waingapu",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -9.6567,
+    "lon": 120.2641,
+    "population": 35932
+  },
+  {
+    "name": "Mulia",
+    "admin1": "Papua Tengah",
+    "country": "Indonesia",
+    "lat": -3.7147,
+    "lon": 137.9853,
+    "population": 35884
+  },
+  {
+    "name": "Tambolaka",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -9.4283,
+    "lon": 119.238,
+    "population": 35790
+  },
+  {
+    "name": "Kualakapuas",
+    "admin1": "Kalimantan Tengah",
+    "country": "Indonesia",
+    "lat": -3.0091,
+    "lon": 114.3876,
+    "population": 35632
+  },
+  {
+    "name": "Wangon",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5161,
+    "lon": 109.0539,
+    "population": 35530
+  },
+  {
+    "name": "Tahuna",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 3.611,
+    "lon": 125.4858,
+    "population": 35307
+  },
+  {
+    "name": "Sumberpucung",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1586,
+    "lon": 112.4829,
+    "population": 35285
+  },
+  {
+    "name": "Praya",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.7054,
+    "lon": 116.2704,
+    "population": 35183
+  },
+  {
+    "name": "Pangururan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.6081,
+    "lon": 98.6961,
+    "population": 34209
+  },
+  {
+    "name": "Pandaan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6527,
+    "lon": 112.6875,
+    "population": 34184
+  },
+  {
+    "name": "Tobelo",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 1.7284,
+    "lon": 128.0095,
+    "population": 34150
+  },
+  {
+    "name": "Kuala Tungkal",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -0.8162,
+    "lon": 103.4611,
+    "population": 33683
+  },
+  {
+    "name": "Tabanan",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.5413,
+    "lon": 115.1252,
+    "population": 33667
+  },
+  {
+    "name": "Lebaksiu",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0496,
+    "lon": 109.1441,
+    "population": 33606
+  },
+  {
+    "name": "Labuan",
+    "admin1": "Banten",
+    "country": "Indonesia",
+    "lat": -6.3784,
+    "lon": 105.83,
+    "population": 33576
+  },
+  {
+    "name": "Mlonggo",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.5333,
+    "lon": 110.7,
+    "population": 33542
+  },
+  {
+    "name": "Bengkayang",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": 0.8319,
+    "lon": 109.4359,
+    "population": 33385
+  },
+  {
+    "name": "Tondano",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.3054,
+    "lon": 124.9126,
+    "population": 33317
+  },
+  {
+    "name": "Tanggulangin",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4996,
+    "lon": 112.6999,
+    "population": 32866
+  },
+  {
+    "name": "Jaten",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5772,
+    "lon": 110.8975,
+    "population": 32378
+  },
+  {
+    "name": "Boyolangu",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1181,
+    "lon": 111.8935,
+    "population": 32287
+  },
+  {
+    "name": "Katobu",
+    "admin1": "Sulawesi Tenggara",
+    "country": "Indonesia",
+    "lat": -4.8299,
+    "lon": 122.726,
+    "population": 31929
+  },
+  {
+    "name": "Amlapura",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.45,
+    "lon": 115.6167,
+    "population": 31869
+  },
+  {
+    "name": "Amlapura city",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.4487,
+    "lon": 115.6062,
+    "population": 31869
+  },
+  {
+    "name": "Airmadidi",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.428,
+    "lon": 124.9777,
+    "population": 31446
+  },
+  {
+    "name": "Bandar",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.05,
+    "lon": 99.75,
+    "population": 31442
+  },
+  {
+    "name": "Kutoarjo",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7169,
+    "lon": 109.9128,
+    "population": 31352
+  },
+  {
+    "name": "Karangampel",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -6.4622,
+    "lon": 108.4519,
+    "population": 31234
+  },
+  {
+    "name": "Panarukan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7018,
+    "lon": 113.9184,
+    "population": 30749
+  },
+  {
+    "name": "Sidareja",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.4846,
+    "lon": 108.7923,
+    "population": 30313
+  },
+  {
+    "name": "Dalung",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.6255,
+    "lon": 115.1704,
+    "population": 30228
+  },
+  {
+    "name": "Pakisaji",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.0665,
+    "lon": 112.5981,
+    "population": 30213
+  },
+  {
+    "name": "Selogiri",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7833,
+    "lon": 110.8667,
+    "population": 30180
+  },
+  {
+    "name": "Lewoleba",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.3723,
+    "lon": 123.418,
+    "population": 30151
+  },
+  {
+    "name": "Kuta",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.7233,
+    "lon": 115.1723,
+    "population": 30012
+  },
+  {
+    "name": "Maros",
+    "admin1": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "lat": -5.006,
+    "lon": 119.5727,
+    "population": 30000
+  },
+  {
+    "name": "Sanana",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": -2.0585,
+    "lon": 125.9779,
+    "population": 29716
+  },
+  {
+    "name": "Kawasi",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": -1.5912,
+    "lon": 127.4071,
+    "population": 29642
+  },
+  {
+    "name": "Srandakan",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.9386,
+    "lon": 110.2506,
+    "population": 29529
+  },
+  {
+    "name": "Singojuruh",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.3167,
+    "lon": 114.2333,
+    "population": 29418
+  },
+  {
+    "name": "Wongsorejo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.9908,
+    "lon": 114.4009,
+    "population": 29193
+  },
+  {
+    "name": "Trenggalek",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.0764,
+    "lon": 111.7064,
+    "population": 29083
+  },
+  {
+    "name": "Lasem",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.6922,
+    "lon": 111.4527,
+    "population": 28948
+  },
+  {
+    "name": "Utan",
+    "admin1": "DKI Jakarta",
+    "country": "Indonesia",
+    "lat": -6.1769,
+    "lon": 106.9467,
+    "population": 28745
+  },
+  {
+    "name": "Ceper",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6742,
+    "lon": 110.6789,
+    "population": 28646
+  },
+  {
+    "name": "Randudongkal",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0981,
+    "lon": 109.3243,
+    "population": 28532
+  },
+  {
+    "name": "Balapulang",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0486,
+    "lon": 109.1006,
+    "population": 28483
+  },
+  {
+    "name": "Kraksaan",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.7584,
+    "lon": 113.3962,
+    "population": 28248
+  },
+  {
+    "name": "Batubulan",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.6238,
+    "lon": 115.262,
+    "population": 28131
+  },
+  {
+    "name": "Jogonalan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7036,
+    "lon": 110.5361,
+    "population": 28114
+  },
+  {
+    "name": "Mranggen",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0268,
+    "lon": 110.5158,
+    "population": 28026
+  },
+  {
+    "name": "Deli Tua",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.5078,
+    "lon": 98.6839,
+    "population": 27940
+  },
+  {
+    "name": "Margasari",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.0948,
+    "lon": 109.025,
+    "population": 27814
+  },
+  {
+    "name": "Sijunjung",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -0.7005,
+    "lon": 100.9774,
+    "population": 27786
+  },
+  {
+    "name": "Tomohon",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.3168,
+    "lon": 124.8038,
+    "population": 27624
+  },
+  {
+    "name": "Sofifi",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 0.7373,
+    "lon": 127.5588,
+    "population": 27591
+  },
+  {
+    "name": "Bulakamba",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8748,
+    "lon": 108.9559,
+    "population": 27367
+  },
+  {
+    "name": "Demak",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8909,
+    "lon": 110.6396,
+    "population": 27251
+  },
+  {
+    "name": "Paciran",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -6.8767,
+    "lon": 112.3761,
+    "population": 27072
+  },
+  {
+    "name": "Babat",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1128,
+    "lon": 112.1635,
+    "population": 27038
+  },
+  {
+    "name": "Stabat",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.7334,
+    "lon": 98.4502,
+    "population": 26862
+  },
+  {
+    "name": "Driyorejo",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.3659,
+    "lon": 112.6219,
+    "population": 26827
+  },
+  {
+    "name": "Muntok",
+    "admin1": "Kepulauan Bangka Belitung",
+    "country": "Indonesia",
+    "lat": -2.0672,
+    "lon": 105.1623,
+    "population": 26709
+  },
+  {
+    "name": "Tayu",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.5397,
+    "lon": 111.0518,
+    "population": 26413
+  },
+  {
+    "name": "Ngunut",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1058,
+    "lon": 112.0159,
+    "population": 26297
+  },
+  {
+    "name": "Colomadu",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5333,
+    "lon": 110.75,
+    "population": 26274
+  },
+  {
+    "name": "Wanaraja",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.1749,
+    "lon": 107.9808,
+    "population": 26240
+  },
+  {
+    "name": "Welahan",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -6.8,
+    "lon": 110.7167,
+    "population": 26163
+  },
+  {
+    "name": "Teluk Dalam",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 0.5729,
+    "lon": 97.8034,
+    "population": 25780
+  },
+  {
+    "name": "Malinau",
+    "admin1": "Kalimantan Utara",
+    "country": "Indonesia",
+    "lat": 3.5886,
+    "lon": 116.6239,
+    "population": 25596
+  },
+  {
+    "name": "Pangkalan Brandan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 4.0238,
+    "lon": 98.2782,
+    "population": 25542
+  },
+  {
+    "name": "Soko",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4832,
+    "lon": 112.427,
+    "population": 25494
+  },
+  {
+    "name": "Bungku",
+    "admin1": "Sulawesi Tengah",
+    "country": "Indonesia",
+    "lat": -2.5471,
+    "lon": 121.972,
+    "population": 25477
+  },
+  {
+    "name": "Teluk Nibung",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 3.001,
+    "lon": 99.8164,
+    "population": 25146
+  },
+  {
+    "name": "Tanjungtiram",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 4.0613,
+    "lon": 98.3699,
+    "population": 25118
+  },
+  {
+    "name": "Seririt",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.1928,
+    "lon": 114.9388,
+    "population": 25000
+  },
+  {
+    "name": "Bintuni",
+    "admin1": "Papua Barat",
+    "country": "Indonesia",
+    "lat": -2.1097,
+    "lon": 133.5246,
+    "population": 24742
+  },
+  {
+    "name": "Lahewa",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 1.3943,
+    "lon": 97.1675,
+    "population": 24485
+  },
+  {
+    "name": "Delanggu",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6167,
+    "lon": 110.6833,
+    "population": 24440
+  },
+  {
+    "name": "Prigen",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6833,
+    "lon": 112.6167,
+    "population": 24164
+  },
+  {
+    "name": "Blangpidie",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 3.7396,
+    "lon": 96.8361,
+    "population": 24085
+  },
+  {
+    "name": "Pundong",
+    "admin1": "Daerah Istimewa Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.9522,
+    "lon": 110.3486,
+    "population": 24081
+  },
+  {
+    "name": "Kalianget",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.0537,
+    "lon": 113.9424,
+    "population": 23897
+  },
+  {
+    "name": "Agats",
+    "admin1": "Papua Selatan",
+    "country": "Indonesia",
+    "lat": -5.545,
+    "lon": 138.1352,
+    "population": 23869
+  },
+  {
+    "name": "Ngemplak",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.5497,
+    "lon": 110.7164,
+    "population": 23750
+  },
+  {
+    "name": "Trucuk",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7183,
+    "lon": 110.6589,
+    "population": 23584
+  },
+  {
+    "name": "Daruba",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 2.0505,
+    "lon": 128.294,
+    "population": 23566
+  },
+  {
+    "name": "Mojoagung",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.5667,
+    "lon": 112.35,
+    "population": 23534
+  },
+  {
+    "name": "Kroya",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.6331,
+    "lon": 109.2461,
+    "population": 23255
+  },
+  {
+    "name": "Dampit",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.2116,
+    "lon": 112.7493,
+    "population": 23094
+  },
+  {
+    "name": "Tuban",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.7427,
+    "lon": 115.1724,
+    "population": 22947
+  },
+  {
+    "name": "Ngoro",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.6839,
+    "lon": 112.258,
+    "population": 22871
+  },
+  {
+    "name": "Waisai",
+    "admin1": "Papua Barat Daya",
+    "country": "Indonesia",
+    "lat": -0.2379,
+    "lon": 130.5072,
+    "population": 22541
+  },
+  {
+    "name": "Gambiran Satu",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.3939,
+    "lon": 114.1464,
+    "population": 22525
+  },
+  {
+    "name": "Kamal",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.1678,
+    "lon": 112.7192,
+    "population": 22515
+  },
+  {
+    "name": "Gongdanglegi Kulon",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -8.1753,
+    "lon": 112.6359,
+    "population": 22468
+  },
+  {
+    "name": "Ngawi",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.4038,
+    "lon": 111.4461,
+    "population": 22412
+  },
+  {
+    "name": "Kebonarun",
+    "admin1": "Jawa Tengah",
+    "country": "Indonesia",
+    "lat": -7.7003,
+    "lon": 110.5631,
+    "population": 21745
+  },
+  {
+    "name": "Namrole",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -3.8455,
+    "lon": 126.7262,
+    "population": 21513
+  },
+  {
+    "name": "Tiom",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -3.9236,
+    "lon": 138.4547,
+    "population": 21324
+  },
+  {
+    "name": "Muara Bungo",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -1.4902,
+    "lon": 102.1149,
+    "population": 21243
+  },
+  {
+    "name": "Bedugul",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.4504,
+    "lon": 115.5925,
+    "population": 20000
+  },
+  {
+    "name": "Teminabuan",
+    "admin1": "Papua Barat Daya",
+    "country": "Indonesia",
+    "lat": -1.4416,
+    "lon": 132.0143,
+    "population": 19491
+  },
+  {
+    "name": "Kalabahi",
+    "admin1": "Nusa Tenggara Timur",
+    "country": "Indonesia",
+    "lat": -8.2151,
+    "lon": 124.5458,
+    "population": 19210
+  },
+  {
+    "name": "Fakfak",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -2.9248,
+    "lon": 132.2981,
+    "population": 18900
+  },
+  {
+    "name": "Manismata",
+    "admin1": "Kalimantan Barat",
+    "country": "Indonesia",
+    "lat": -2.4667,
+    "lon": 111.0333,
+    "population": 18888
+  },
+  {
+    "name": "Barus",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.0106,
+    "lon": 98.3982,
+    "population": 18346
+  },
+  {
+    "name": "Sigli",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 5.3848,
+    "lon": 95.9609,
+    "population": 17504
+  },
+  {
+    "name": "Ransiki",
+    "admin1": "Papua Barat",
+    "country": "Indonesia",
+    "lat": -1.5083,
+    "lon": 134.1708,
+    "population": 16245
+  },
+  {
+    "name": "Paropo",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.8663,
+    "lon": 98.5211,
+    "population": 16065
+  },
+  {
+    "name": "Tongging",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.8985,
+    "lon": 98.5231,
+    "population": 16000
+  },
+  {
+    "name": "Leuwiliang",
+    "admin1": "Jawa Barat",
+    "country": "Indonesia",
+    "lat": -7.1169,
+    "lon": 107.5019,
+    "population": 15275
+  },
+  {
+    "name": "Sinabang",
+    "admin1": "Aceh",
+    "country": "Indonesia",
+    "lat": 2.4803,
+    "lon": 96.3801,
+    "population": 15000
+  },
+  {
+    "name": "Mamuju",
+    "admin1": "Sulawesi Barat",
+    "country": "Indonesia",
+    "lat": -2.6806,
+    "lon": 118.8861,
+    "population": 15000
+  },
+  {
+    "name": "Sanur",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.675,
+    "lon": 115.2611,
+    "population": 14628
+  },
+  {
+    "name": "Sarmi",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -1.853,
+    "lon": 138.7509,
+    "population": 14093
+  },
+  {
+    "name": "Serui",
+    "admin1": "Papua",
+    "country": "Indonesia",
+    "lat": -1.8802,
+    "lon": 136.2426,
+    "population": 13568
+  },
+  {
+    "name": "Muarajawa",
+    "admin1": "",
+    "country": "Indonesia",
+    "lat": -0.6333,
+    "lon": 117.3,
+    "population": 13182
+  },
+  {
+    "name": "Kobakma",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -3.6642,
+    "lon": 139.065,
+    "population": 13062
+  },
+  {
+    "name": "Parmonangan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.397,
+    "lon": 99.0515,
+    "population": 13021
+  },
+  {
+    "name": "Saumlaki",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -7.9862,
+    "lon": 131.2968,
+    "population": 12916
+  },
+  {
+    "name": "Maba",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 0.7007,
+    "lon": 128.292,
+    "population": 12560
+  },
+  {
+    "name": "Nainggolan",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.4361,
+    "lon": 98.8852,
+    "population": 11849
+  },
+  {
+    "name": "Dabo",
+    "admin1": "Kepulauan Riau",
+    "country": "Indonesia",
+    "lat": -0.4931,
+    "lon": 104.5631,
+    "population": 10388
+  },
+  {
+    "name": "Tomok Bolon",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.6521,
+    "lon": 98.8608,
+    "population": 10000
+  },
+  {
+    "name": "Parapat",
+    "admin1": "Sumatera Utara",
+    "country": "Indonesia",
+    "lat": 2.663,
+    "lon": 98.9349,
+    "population": 10000
+  },
+  {
+    "name": "Labuan Lombok",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.5,
+    "lon": 116.6667,
+    "population": 10000
+  },
+  {
+    "name": "Lembar",
+    "admin1": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "lat": -8.7264,
+    "lon": 116.0744,
+    "population": 10000
+  },
+  {
+    "name": "Legian",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.7042,
+    "lon": 115.1703,
+    "population": 10000
+  },
+  {
+    "name": "Lovina",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.1493,
+    "lon": 115.04,
+    "population": 10000
+  },
+  {
+    "name": "Galela",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": 1.8234,
+    "lon": 127.7889,
+    "population": 8760
+  },
+  {
+    "name": "Ranai Kota",
+    "admin1": "Kepulauan Riau",
+    "country": "Indonesia",
+    "lat": 3.94,
+    "lon": 108.3777,
+    "population": 8735
+  },
+  {
+    "name": "Kepi",
+    "admin1": "Papua Selatan",
+    "country": "Indonesia",
+    "lat": -6.5246,
+    "lon": 139.3222,
+    "population": 8394
+  },
+  {
+    "name": "Laikit, Laikit II (Dimembe)",
+    "admin1": "Sulawesi Utara",
+    "country": "Indonesia",
+    "lat": 1.4883,
+    "lon": 124.9744,
+    "population": 8000
+  },
+  {
+    "name": "Bejubang Dua",
+    "admin1": "Jambi",
+    "country": "Indonesia",
+    "lat": -1.7923,
+    "lon": 103.3167,
+    "population": 7957
+  },
+  {
+    "name": "Klakah",
+    "admin1": "Jawa Timur",
+    "country": "Indonesia",
+    "lat": -7.9958,
+    "lon": 113.2534,
+    "population": 7583
+  },
+  {
+    "name": "Labuha",
+    "admin1": "Maluku Utara",
+    "country": "Indonesia",
+    "lat": -0.6255,
+    "lon": 127.4781,
+    "population": 7073
+  },
+  {
+    "name": "Kuala Cenaku",
+    "admin1": "Riau",
+    "country": "Indonesia",
+    "lat": -0.4708,
+    "lon": 102.6827,
+    "population": 7000
+  },
+  {
+    "name": "Karubaga",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -3.6994,
+    "lon": 138.4579,
+    "population": 6703
+  },
+  {
+    "name": "Kenyam",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -4.5997,
+    "lon": 138.3842,
+    "population": 6394
+  },
+  {
+    "name": "Munduk",
+    "admin1": "Bali",
+    "country": "Indonesia",
+    "lat": -8.2687,
+    "lon": 115.0795,
+    "population": 6200
+  },
+  {
+    "name": "Elelim",
+    "admin1": "Papua Pegunungan",
+    "country": "Indonesia",
+    "lat": -3.759,
+    "lon": 139.7075,
+    "population": 5946
+  },
+  {
+    "name": "Tobong",
+    "admin1": "Kepulauan Riau",
+    "country": "Indonesia",
+    "lat": 3.2906,
+    "lon": 106.2905,
+    "population": 5828
+  },
+  {
+    "name": "Tuapejat",
+    "admin1": "Sumatera Barat",
+    "country": "Indonesia",
+    "lat": -2.0283,
+    "lon": 99.5894,
+    "population": 5756
+  },
+  {
+    "name": "Tiakur",
+    "admin1": "Maluku",
+    "country": "Indonesia",
+    "lat": -8.15,
+    "lon": 127.795,
+    "population": 5227
+  }
+]

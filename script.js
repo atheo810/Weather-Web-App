@@ -4,7 +4,6 @@ let currentCity = {
   lon: 114.8322,
 };
 
-// Kode WMO Weather Open-Meteo ke Teks Bahasa Indonesia
 const weatherCodes = {
   0: "Cerah",
   1: "Cerah Berawan",
@@ -99,21 +98,19 @@ function renderWeather(data) {
   content.innerHTML = html;
 }
 
-async function searchCity(query) {
-  const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=5&language=id&format=json`;
-  const response = await fetch(url);
-  const data = await response.json();
-  return data.results || [];
+function searchLocalCity(query) {
+  const q = query.toLowerCase();
+  return indonesiaCities
+    .filter((c) => c.name.toLowerCase().includes(q))
+    .slice(0, 8);
 }
 
-async function handleSearch() {
+function handleSearch() {
   const query = document.getElementById("city-input").value.trim();
   if (!query) return;
 
   const resultsBox = document.getElementById("search-results");
-  resultsBox.innerHTML = "<div class='search-result-item'>Mencari...</div>";
-
-  const results = await searchCity(query);
+  const results = searchLocalCity(query);
 
   if (results.length === 0) {
     resultsBox.innerHTML =
@@ -125,7 +122,7 @@ async function handleSearch() {
     .map(
       (r, i) => `
       <div class="search-result-item" onclick="selectCity(${i})">
-        ${r.name}${r.admin1 ? ", " + r.admin1 : ""}, ${r.country}
+        ${r.name}${r.admin1 ? ", " + r.admin1 : ""}
       </div>
     `,
     )
@@ -136,7 +133,7 @@ async function handleSearch() {
 
 function selectCity(index) {
   const r = window.__searchResults[index];
-  currentCity = { name: r.name, lat: r.latitude, lon: r.longitude };
+  currentCity = { name: r.name, lat: r.lat, lon: r.lon };
 
   document.getElementById("search-results").innerHTML = "";
   document.getElementById("city-input").value = "";
