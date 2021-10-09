@@ -4,6 +4,11 @@ let currentCity = {
   lon: 114.8322,
 };
 
+// Menyimpan instance Chart.js aktif, supaya bisa di-destroy sebelum
+// dibuat ulang tiap kali data cuaca di-refresh (mencegah chart menumpuk/bocor memori)
+let hourlyChart = null;
+
+// Kode WMO Weather Open-Meteo ke Teks Bahasa Indonesia
 const weatherCodes = {
   0: "Cerah",
   1: "Cerah Berawan",
@@ -53,22 +58,19 @@ function renderWeather(data) {
   let startIndex = hourly.time.findIndex((t) => t.startsWith(currentHourIso));
   if (startIndex === -1) startIndex = 24;
 
-  let hourlyHtml = "";
+  // Kumpulkan data 24 jam ke depan untuk dipakai chart (bukan lagi kartu HTML)
+  const chartLabels = [];
+  const chartTemps = [];
+  const chartPop = [];
   for (let i = startIndex; i < startIndex + 24 && i < hourly.time.length; i++) {
-    const timeStr = new Date(hourly.time[i]).toLocaleTimeString("id-ID", {
-      hour: "2-digit",
-      minute: "2-digit",
-    });
-    const temp = Math.round(hourly.temperature_2m[i]);
-    const pop = hourly.precipitation_probability[i] || 0;
-
-    hourlyHtml += `
-          <div class="hourly-item">
-            <div class="time">${timeStr}</div>
-            <div class="temp-sm">${temp}°C</div>
-            <div style="font-size: 0.75rem; color: #0288d1; margin-top: 2px;">🌧️ ${pop}%</div>
-          </div>
-        `;
+    chartLabels.push(
+      new Date(hourly.time[i]).toLocaleTimeString("id-ID", {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    );
+    chartTemps.push(Math.round(hourly.temperature_2m[i] * 10) / 10);
+    chartPop.push(hourly.precipitation_probability[i] || 0);
   }
 
   const weatherDesc =
@@ -87,8 +89,8 @@ function renderWeather(data) {
 
         <div class="hourly-container">
           <h2>Prakiraan 24 Jam Ke Depan</h2>
-          <div class="hourly-scroll">
-            ${hourlyHtml}
+          <div class="chart-wrapper">
+            <canvas id="hourlyChart"></canvas>
           </div>
         </div>
       `;
@@ -96,6 +98,89 @@ function renderWeather(data) {
   const content = document.getElementById("weather-content");
   content.className = "";
   content.innerHTML = html;
+
+  renderHourlyChart(chartLabels, chartTemps, chartPop);
+}
+
+function renderHourlyChart(labels, temps, pop) {
+  const canvas = document.getElementById("hourlyChart");
+  if (!canvas) return;
+
+  // Hapus chart lama dulu sebelum bikin yang baru, kalau tidak canvas akan
+  // menumpuk chart tiap kali fetchWeather() dipanggil ulang
+  if (hourlyChart) {
+    hourlyChart.destroy();
+  }
+
+  hourlyChart = new Chart(canvas.getContext("2d"), {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: "Suhu (°C)",
+          data: temps,
+          borderColor: "#2e7d32",
+          backgroundColor: "rgba(46, 125, 50, 0.1)",
+          borderWidth: 2,
+          tension: 0.3,
+          pointRadius: 2,
+          pointHoverRadius: 5,
+          fill: true,
+          yAxisID: "y",
+        },
+        {
+          label: "Peluang Hujan (%)",
+          data: pop,
+          borderColor: "#0288d1",
+          backgroundColor: "rgba(2, 136, 209, 0.15)",
+          borderWidth: 2,
+          borderDash: [4, 4],
+          tension: 0.3,
+          pointRadius: 0,
+          fill: true,
+          yAxisID: "y1",
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          position: "top",
+          labels: { boxWidth: 12, font: { size: 11 } },
+        },
+        tooltip: {
+          callbacks: {
+            label: (ctx) =>
+              ctx.dataset.yAxisID === "y"
+                ? `Suhu: ${ctx.formattedValue}°C`
+                : `Peluang Hujan: ${ctx.formattedValue}%`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { maxTicksLimit: 8, font: { size: 10 } },
+          grid: { display: false },
+        },
+        y: {
+          position: "left",
+          title: { display: true, text: "°C", font: { size: 10 } },
+          grid: { color: "#f0f0f0" },
+        },
+        y1: {
+          position: "right",
+          min: 0,
+          max: 100,
+          title: { display: true, text: "%", font: { size: 10 } },
+          grid: { display: false },
+        },
+      },
+    },
+  });
 }
 
 function searchLocalCity(query) {
@@ -133,7 +218,7 @@ function handleSearch() {
 
 function selectCity(index) {
   const r = window.__searchResults[index];
-  currentCity = { name: r.name, lat: r.lat, lon: r.lon };
+  currentCity = { name: r.name, lat: r.latitude, lon: r.longitude };
 
   document.getElementById("search-results").innerHTML = "";
   document.getElementById("city-input").value = "";

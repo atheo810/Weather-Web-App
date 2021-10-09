@@ -100,32 +100,17 @@ button:hover {
   color: #333;
 }
 
-.hourly-scroll {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  padding-bottom: 8px;
-}
-
-.hourly-item {
-  min-width: 70px;
+.chart-wrapper {
+  position: relative;
+  height: 220px;
   background: #fff;
+  border-radius: 10px;
+  padding: 12px 8px 4px;
   border: 1px solid #e0e0e0;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
-  font-size: 0.85rem;
 }
 
-.hourly-item .time {
-  font-weight: bold;
-  color: #666;
-}
-
-.hourly-item .temp-sm {
-  margin-top: 4px;
-  font-weight: bold;
-  color: #222;
+.chart-wrapper canvas {
+  max-width: 100%;
 }
 
 .loading {
@@ -188,5 +173,8 @@ button:hover {
   }
   .header h1 {
     font-size: 1.1rem;
+  }
+  .chart-wrapper {
+    height: 180px;
   }
 }
