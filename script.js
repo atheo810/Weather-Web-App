@@ -4,8 +4,6 @@ let currentCity = {
   lon: 114.8322,
 };
 
-// Menyimpan instance Chart.js aktif, supaya bisa di-destroy sebelum
-// dibuat ulang tiap kali data cuaca di-refresh (mencegah chart menumpuk/bocor memori)
 let hourlyChart = null;
 
 // Kode WMO Weather Open-Meteo ke Teks Bahasa Indonesia
@@ -31,9 +29,19 @@ const weatherCodes = {
 
 async function fetchWeather() {
   const content = document.getElementById("weather-content");
+
+  if (
+    typeof currentCity.lat !== "number" ||
+    typeof currentCity.lon !== "number"
+  ) {
+    content.className = "";
+    content.innerText = "Koordinat kota tidak valid. Coba pilih kota lain.";
+    console.error("currentCity tidak valid:", currentCity);
+    return;
+  }
+
   content.className = "loading";
   content.innerText = "Memuat data cuaca...";
-
   // Mengambil data cuaca saat ini + prakiraan per jam (termasuk 24 jam ke depan & belakang)
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${currentCity.lat}&longitude=${currentCity.lon}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
 
@@ -106,8 +114,6 @@ function renderHourlyChart(labels, temps, pop) {
   const canvas = document.getElementById("hourlyChart");
   if (!canvas) return;
 
-  // Hapus chart lama dulu sebelum bikin yang baru, kalau tidak canvas akan
-  // menumpuk chart tiap kali fetchWeather() dipanggil ulang
   if (hourlyChart) {
     hourlyChart.destroy();
   }
@@ -218,8 +224,7 @@ function handleSearch() {
 
 function selectCity(index) {
   const r = window.__searchResults[index];
-  currentCity = { name: r.name, lat: r.latitude, lon: r.longitude };
-
+  currentCity = { name: r.name, lat: r.lat, lon: r.lon };
   document.getElementById("search-results").innerHTML = "";
   document.getElementById("city-input").value = "";
   document.getElementById("city-title").innerText = `📍 ${currentCity.name}`;
