@@ -26,35 +26,53 @@ const weatherCodes = {
   95: "Badai Petir",
   96: "Badai Petir & Hujan Es",
 };
+function handleSearch() {
+  const query = document.getElementById("city-input").value.trim();
+  if (!query) return;
 
-async function fetchWeather() {
-  const content = document.getElementById("weather-content");
+  const resultsBox = document.getElementById("search-results");
+  const results = searchLocalCity(query);
 
-  if (
-    typeof currentCity.lat !== "number" ||
-    typeof currentCity.lon !== "number"
-  ) {
-    content.className = "";
-    content.innerText = "Koordinat kota tidak valid. Coba pilih kota lain.";
-    console.error("currentCity tidak valid:", currentCity);
+  if (results.length === 0) {
+    resultsBox.innerHTML =
+      "<div class='search-result-item'>Kota tidak ditemukan</div>";
     return;
   }
 
-  content.className = "loading";
-  content.innerText = "Memuat data cuaca...";
-  // Mengambil data cuaca saat ini + prakiraan per jam (termasuk 24 jam ke depan & belakang)
-  const url = `https://api.open-meteo.com/v1/forecast?latitude=${currentCity.lat}&longitude=${currentCity.lon}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
+  window.__searchResults = results;
 
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
+  resultsBox.innerHTML = results
+    .map(
+      (r, i) => `
+      <div class="search-result-item" data-index="${i}">
+        ${r.name}${r.admin1 ? ", " + r.admin1 : ""}
+      </div>
+    `,
+    )
+    .join("");
+}
 
-    renderWeather(data);
-  } catch (error) {
-    content.innerText =
-      "Gagal memuat data cuaca. Periksa koneksi internet Anda.";
-    console.error(error);
+document.getElementById("search-results").addEventListener("click", (event) => {
+  const item = event.target.closest("[data-index]");
+  if (!item) return;
+
+  const index = Number(item.dataset.index);
+  selectCity(index);
+});
+
+function selectCity(index) {
+  const r = window.__searchResults?.[index];
+  if (!r) {
+    console.error("selectCity: index tidak valid", index);
+    return;
   }
+
+  currentCity = { name: r.name, lat: r.lat, lon: r.lon };
+  document.getElementById("search-results").innerHTML = "";
+  document.getElementById("city-input").value = "";
+  document.getElementById("city-title").innerText = `📍 ${currentCity.name}`;
+
+  fetchWeather();
 }
 
 function renderWeather(data) {
@@ -196,32 +214,45 @@ function searchLocalCity(query) {
     .slice(0, 8);
 }
 
-function handleSearch() {
-  const query = document.getElementById("city-input").value.trim();
-  if (!query) return;
+async function fetchWeather() {
+  const content = document.getElementById("weather-content");
 
-  const resultsBox = document.getElementById("search-results");
-  const results = searchLocalCity(query);
-
-  if (results.length === 0) {
-    resultsBox.innerHTML =
-      "<div class='search-result-item'>Kota tidak ditemukan</div>";
+  if (
+    typeof currentCity.lat !== "number" ||
+    typeof currentCity.lon !== "number"
+  ) {
+    content.className = "";
+    content.innerText = "Koordinat kota tidak valid. Coba pilih kota lain.";
+    console.error("currentCity tidak valid:", currentCity);
     return;
   }
 
-  resultsBox.innerHTML = results
-    .map(
-      (r, i) => `
-      <div class="search-result-item" onclick="selectCity(${i})">
-        ${r.name}${r.admin1 ? ", " + r.admin1 : ""}
-      </div>
-    `,
-    )
-    .join("");
+  content.className = "loading";
+  content.innerText = "Memuat data cuaca...";
 
-  window.__searchResults = results;
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${currentCity.lat}&longitude=${currentCity.lon}&current=temperature_2m,relative_humidity_2m,precipitation_probability,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability,weather_code&past_days=1&forecast_days=2&timezone=Asia%2FMakassar`;
+
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`API merespons status ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (!data.current || !data.hourly) {
+      throw new Error("Format data cuaca tidak sesuai");
+    }
+
+    renderWeather(data);
+  } catch (error) {
+    content.className = "";
+    content.innerText =
+      "Gagal memuat data cuaca. Periksa koneksi internet Anda.";
+    console.error("fetchWeather error:", error);
+  }
 }
-
 function selectCity(index) {
   const r = window.__searchResults[index];
   currentCity = { name: r.name, lat: r.lat, lon: r.lon };
