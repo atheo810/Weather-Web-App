@@ -11,8 +11,8 @@
       <div class="header">
         <h1 id="city-title">📍 Banjarbaru</h1>
         <button
+          id="refresh-btn"
           class="refresh-btn"
-          onclick="fetchWeather()"
           title="Refresh"
           aria-label="Refresh"
         >
@@ -21,13 +21,8 @@
       </div>
 
       <div class="search-box">
-        <input
-          type="text"
-          id="city-input"
-          placeholder="Cari kota..."
-          onkeydown="if (event.key === 'Enter') handleSearch();"
-        />
-        <button onclick="handleSearch()">Cari</button>
+        <input type="text" id="city-input" placeholder="Cari kota..." />
+        <button id="search-btn">Cari</button>
         <div id="search-results"></div>
       </div>
 
@@ -35,7 +30,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-    <script src="cities-data.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
